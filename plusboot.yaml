@@ -1,0 +1,13 @@
+apps:
+  - appkey: com.sankuai.meishi.paas.gravityweb #必填，必须是正确的appkey，否则会导致创建plus检查不通过
+    framework: xframeboot # 必填，表示支持的框架类型
+    extension:
+      PUB_MODULE: gravityweb-server # 多module，必填，运行module的名称；单module，不填
+      CHECK_HTTP_URL: http://127.0.0.1:8080/monitor/alive # Web服务必填，用于web服务检测，8080为默认端口号，如有改动必须修改为相应端口号，示例：http://127.0.0.1:8081/monitor/alive
+      CHECK_THRIFT_PORTS: "8411" # Thirft服务必填，用于Thrift服务端口号检测，8411为默认端口号，如有改动必须修改为相应端口号，多端口使用空格分割，示例："8411 8412"
+      # CHECK_RETRY: # 选填，健康检查重试次数，默认是100次
+      # CHECK_INTERVAL: # 选填，健康检查间隔，默认5s，格式：1s/1m/1h
+      # JVM_EXT_ARGS: # 选填，JVM扩展参数配置，将追加到默认JVM参数配置
+      # JVM_GC: -XX: # 选填，JVM GC配置，将覆盖默认的GC配置
+      # JVM_HEAP: # 选填，JVM Heap配置，将覆盖默认的Heap配置
+      # APP_ARGS: # 选填，应用扩展参数配置，将追加到默认应用参数配置
