@@ -19,5 +19,6 @@
     <modules>
         <module>mzt-toolkit-sdk</module>
         <module>mzt-toolkit-server</module>
+        <module>mzt-toolkit-logrecord</module>
     </modules>
 </project>
