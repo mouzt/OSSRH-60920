@@ -1,4 +1,4 @@
-# 可使用变量注解型操作日志
+# 可使用变量注解型通用操作日志组件
 此组件解决的问题是：
 「谁」在「什么时间」对「什么」做了「什么事」
 
@@ -39,7 +39,7 @@ public class StartApp {
         return true;
     }
 ```
-此时会打印操作日志
+此时会打印操作日志 "张三下了一个订单,购买商品「超值优惠红烧肉套餐」,下单结果:true"
 
 #### 重写log持久化和获取登陆用户的Service
 > 组件有两个Default实现分别是DefaultOperatorGetServiceImpl 和 DefaultLogRecordServiceImpl

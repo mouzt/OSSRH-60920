@@ -17,6 +17,7 @@ import org.springframework.util.StringUtils;
 import java.io.Serializable;
 import java.lang.reflect.Method;
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -114,6 +115,7 @@ public class LogRecordInterceptor extends LogRecordValueParser implements Initia
                         .operatorId(!StringUtils.isEmpty(realOperatorId) ? realOperatorId : expressionValues.get(operatorId))
                         .category(category)
                         .action(expressionValues.get(action))
+                        .createTime(new Date())
                         .build();
 
                 //save log 需要新开事务，失败日志不能因为事务回滚而丢失
