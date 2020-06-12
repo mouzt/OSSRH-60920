@@ -40,4 +40,18 @@ public class LogRecord {
 
     private Date createTime;
 
+    @Override
+    public String toString() {
+        return "LogRecord{" +
+                "id=" + id +
+                ", bizKey='" + bizKey + '\'' +
+                ", bizNo='" + bizNo + '\'' +
+                ", operator='" + operator + '\'' +
+                ", operatorId='" + operatorId + '\'' +
+                ", action='" + action + '\'' +
+                ", category='" + category + '\'' +
+                ", appKey='" + appKey + '\'' +
+                ", createTime=" + createTime +
+                '}';
+    }
 }
