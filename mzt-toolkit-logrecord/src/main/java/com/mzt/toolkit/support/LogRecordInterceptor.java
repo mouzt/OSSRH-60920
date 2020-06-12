@@ -98,6 +98,9 @@ public class LogRecordInterceptor extends LogRecordValueParser implements Initia
                     spElTemplates = Lists.newArrayList(bizKey, bizNo , action);
                     realOperator = operatorGetService.getUser().getOperatorName();
                     realOperatorId = operatorGetService.getUser().getOperatorId();
+                    if(StringUtils.isEmpty(realOperator) && StringUtils.isEmpty(realOperatorId)){
+                        throw new IllegalArgumentException("user is null");
+                    }
                 }else {
                     spElTemplates = Lists.newArrayList(bizKey, bizNo, action, operator, operatorId);
                 }
@@ -149,6 +152,7 @@ public class LogRecordInterceptor extends LogRecordValueParser implements Initia
     @Override
     public void afterPropertiesSet() throws Exception {
         bizLogService = beanFactory.getBean(ILogRecordService.class);
+        operatorGetService = beanFactory.getBean(IOperatorGetService.class);
         Preconditions.checkNotNull(bizLogService, "bizLogService not null");
     }
 

@@ -15,24 +15,6 @@ spring:
 logging:
   config: classpath:log4j2/log4j2-online.xml
 
-# Zebra属性配置
-zebra:
-  jdbcRef: mtchi_base_xframe_dev # jdbcRef配置, 通过profile隔离
-  poolType: druid
-  minPoolSize: 5
-  maxPoolSize: 30
-  initialPoolSize: 5
-  checkoutTimeout: 1000
-  maxIdleTime: 1800
-  idleConnectionTestPeriod: 60
-  sqlSessionFactory:
-    typeAliasesPackage: com.meituan.mzt.domain
-    plugins:
-      - className: com.github.pagehelper.PageInterceptor
-        properties:
-          helperDialect: mysql # 数据库方言配置，默认为mysql。当使用其他数据库时请对应修改，例如：PostgreSQL数据库配置为postgresql、DB2数据配置db2等。
-  zebraMapperScannerConfigurer:
-    basePackage: com.meituan.mzt.mapper
 
 
 # Squirrel属性配置
@@ -69,8 +51,7 @@ spring:
 #日志配置文件位置
 logging:
   config: classpath:log4j2/log4j2-offline.xml
-zebra:
-  jdbcRef: mtchi_base_xframe_dev #替换为自己dev环境的jdbcRef
+
 
 ---
 
@@ -80,8 +61,7 @@ spring:
 #日志配置文件位置
 logging:
   config: classpath:log4j2/log4j2-offline.xml
-zebra:
-  jdbcRef: mtchi_base_xframe_test #替换为自己test环境的jdbcRef
+
 
 
 # Squirrel属性配置
@@ -93,8 +73,6 @@ zebra:
 spring:
   profiles: staging
 
-zebra:
-  jdbcRef: mtchi_base_xframe #替换为自己staging环境的jdbcRef
 
 
 # Squirrel属性配置
@@ -106,8 +84,6 @@ zebra:
 spring:
   profiles: prod
 
-zebra:
-  jdbcRef: mtchi_base_xframe #替换为自己prod环境的jdbcRef
 
 
 # Squirrel属性配置
