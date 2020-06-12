@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class OrderServiceImpl implements IOrderService {
 
+    /*'张三下了一个订单,购买商品「超值优惠红烧肉套餐」,下单结果:true' */
     @Override
     @LogRecordAnnotation(success = "{{#order.purchaseName}}下了一个订单,购买商品「{{#order.productName}}」,下单结果:{{#_ret}}",
             bizKey = LogRecordType.ORDER +"{{#order.orderNo}}", bizNo = "{{#order.orderNo}}")
