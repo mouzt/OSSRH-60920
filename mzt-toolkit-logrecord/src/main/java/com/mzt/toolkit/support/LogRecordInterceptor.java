@@ -97,11 +97,11 @@ public class LogRecordInterceptor extends LogRecordValueParser implements Initia
                 String realOperatorId = "";
                 if(StringUtils.isEmpty(operator)){
                     spElTemplates = Lists.newArrayList(bizKey, bizNo , action);
-                    realOperator = operatorGetService.getUser().getOperatorName();
-                    realOperatorId = operatorGetService.getUser().getOperatorId();
-                    if(StringUtils.isEmpty(realOperator) && StringUtils.isEmpty(realOperatorId)){
+                    if(operatorGetService.getUser() == null){
                         throw new IllegalArgumentException("user is null");
                     }
+                    realOperator = operatorGetService.getUser().getOperatorName();
+                    realOperatorId = operatorGetService.getUser().getOperatorId();
                 }else {
                     spElTemplates = Lists.newArrayList(bizKey, bizNo, action, operator, operatorId);
                 }
