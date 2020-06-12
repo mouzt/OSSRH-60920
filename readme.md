@@ -1,8 +1,8 @@
-# 可使用SPEL注解型操作日志
+# 可使用变量注解型操作日志
 此组件解决的问题是：
 「谁」在「什么时间」对「什么」做了「什么事」
 
-本组件目前针对Spring-boot做了Autoconfig，如果是SpringMVC，也可自己在xml初始化bean
+>本组件目前针对Spring-boot做了Autoconfig，如果是SpringMVC，也可自己在xml初始化bean
 
 ## 使用方式
 
@@ -86,6 +86,9 @@ public class DefaultLogRecordServiceImpl implements ILogRecordService {
 }
 ```
 > 查询接口使用者可以根据存储自己实现
+#### 变量相关
+> 可以使用的变量出了参数也可以使用返回值#_ret变量，以及异常的错误信息#_errorMsg
+
 ## Author
 misId:   muzhantong   
 mail : muzhantong@meituan.com
