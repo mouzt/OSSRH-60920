@@ -1,12 +1,12 @@
-#可使用SPEL注解型操作日志
+# 可使用SPEL注解型操作日志
 此组件解决的问题是：
 「谁」在「什么时间」对「什么」做了「什么事」
 
 本组件目前针对Spring-boot做了Autoconfig，如果是SpringMVC，也可自己在xml初始化bean
 
-##使用方式
+## 使用方式
 
-###基本使用
+### 基本使用
 * maven依赖添加SDK依赖
 ```
 <dependency>
@@ -41,7 +41,7 @@ public class StartApp {
 ```
 此时会打印操作日志
 
-####重写log持久化和获取登陆用户的Service
+#### 重写log持久化和获取登陆用户的Service
 > 组件有两个Default实现分别是DefaultOperatorGetServiceImpl 和 DefaultLogRecordServiceImpl
 > 使用者可以自定义持久化方式自己实现ILogRecordService 的接口来保持log，也可以自己实现IOperatorGetService从自己系统的登陆信息中
 > 获取到操作人的ID和名字，也可以在方法上的@LogRecordAnnotation注解上的operator和operatorId属性显示的传递操作者
@@ -86,6 +86,6 @@ public class DefaultLogRecordServiceImpl implements ILogRecordService {
 }
 ```
 > 查询接口使用者可以根据存储自己实现
-##Author
+## Author
 misId:   muzhantong   
 mail : muzhantong@meituan.com
