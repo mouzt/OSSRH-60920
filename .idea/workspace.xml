@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00e8c8a2-13c1-4638-b6d0-3d531f74dc75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/beans/LogRecordOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/beans/LogRecordOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/domain/LogRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/domain/LogRecord.java" afterDir="false" />
-    </list>
+    <list default="true" id="00e8c8a2-13c1-4638-b6d0-3d531f74dc75" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="d4a4dbeb9acdbe2f9db8d91777ff6f3060c0338f" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -155,7 +157,7 @@
       <workItem from="1590468749838" duration="3181000" />
       <workItem from="1591683834170" duration="2226000" />
       <workItem from="1591785921824" duration="16738000" />
-      <workItem from="1602216792948" duration="1134000" />
+      <workItem from="1602216792948" duration="1423000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1591786021881</created>
@@ -262,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591953874857</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="opt 代码">
+      <created>1602218345080</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602218345080</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +291,8 @@
     <MESSAGE value="逻辑判断修复" />
     <MESSAGE value="文档修改" />
     <MESSAGE value="升级hibernate-validator版本&#10;修改GAV信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="升级hibernate-validator版本&#10;修改GAV信息" />
+    <MESSAGE value="opt 代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="opt 代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="198" y="43" key="CommitChangelistDialog2" timestamp="1602218344912">
