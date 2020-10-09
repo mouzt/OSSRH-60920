@@ -1,0 +1,91 @@
+# web服务端口号
+server.port: 8080
+management:
+  endpoints:
+    web:
+      base-path: /monitor
+      path-mapping:
+        health: /alive
+
+spring:
+  profiles:
+    active: @active-profile@
+
+#日志配置文件位置
+logging:
+  config: classpath:log4j2/log4j2-online.xml
+
+
+
+# Squirrel属性配置
+#squirrel:
+#  clusterName:  # 必填，集群名称
+
+# Mafka属性配置
+#mafka:
+#   producer: # 生产者配置
+#     namespace: # 必填，所属业务
+#     topic: # 必填，消息主题
+#   consumer: # 消费者配置
+#     namespace: # 必填，所属业务
+#     topic: # 必填，消息主题
+#     group: # 必填，消费组名称
+#     listener: # 必填，监听器类全路径
+#     className: # 必填，发送消息类型，用于解码
+
+---
+
+spring:
+  profiles: local
+
+#日志配置文件位置
+logging:
+  config: classpath:log4j2/log4j2-local.xml
+  level.com.meituan.mzt.mapper: debug # 打印mybatis的sql日志
+
+---
+
+spring:
+  profiles: dev
+
+#日志配置文件位置
+logging:
+  config: classpath:log4j2/log4j2-offline.xml
+
+
+---
+
+spring:
+  profiles: test
+
+#日志配置文件位置
+logging:
+  config: classpath:log4j2/log4j2-offline.xml
+
+
+
+# Squirrel属性配置
+#squirrel:
+#  clusterName:  # 必填，集群名称
+
+---
+
+spring:
+  profiles: staging
+
+
+
+# Squirrel属性配置
+#squirrel:
+#  clusterName:  # 必填，集群名称
+
+---
+
+spring:
+  profiles: prod
+
+
+
+# Squirrel属性配置
+#squirrel:
+#  clusterName:  # 必填，集群名称

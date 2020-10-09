@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="debug">
+    <appenders>
+        <!--异步磁盘appender，默认按天&按512M文件大小切分日志，默认最多保留30个日志文件，默认为noblocking写日志模式-->
+        <XMDFile name="requestLog" fileName="request.log" rolloverMax="5"></XMDFile>
+
+        <!--ERROR日志、WARN日志单独输出到一个文件-->
+        <XMDFile name="errorLog" fileName="error.log">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+        </XMDFile>
+        <XMDFile name="warnLog" fileName="warn.log">
+            <Filters>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </XMDFile>
+
+        <!--日志远程上报-->
+        <Scribe name="ScribeAppender">
+            <!-- 在指定日志名方面，scribeCategory 和 appkey 两者至少存在一种，且 scribeCategory 高于 appkey。-->
+            <!-- <Property name="scribeCategory">data_update_test_lc</Property> -->
+            <LcLayout/>
+        </Scribe>
+        <Async name="ScribeAsyncAppender" blocking="false">
+            <AppenderRef ref="ScribeAppender"/>
+        </Async>
+
+    </appenders>
+
+    <loggers>
+        <logger name="com.meituan" level="info"/>
+
+        <logger name="org.springframework" level="info"/>
+
+        <root level="info">
+            <appender-ref ref="requestLog"/>
+            <appender-ref ref="warnLog"/>
+            <appender-ref ref="errorLog"/>
+            <appender-ref ref="ScribeAsyncAppender"/>
+        </root>
+    </loggers>
+</configuration>
