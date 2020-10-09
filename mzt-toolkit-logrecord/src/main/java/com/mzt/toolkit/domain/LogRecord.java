@@ -2,8 +2,8 @@ package com.mzt.toolkit.domain;
 
 import lombok.*;
 import org.hibernate.validator.constraints.Length;
-import org.hibernate.validator.constraints.NotBlank;
 
+import javax.validation.constraints.NotBlank;
 import java.util.Date;
 
 @Setter
@@ -20,7 +20,6 @@ public class LogRecord {
     @NotBlank(message = "bizNo required")
     @Length(max = 200, message = "bizNo max length is 200")
     private String bizNo;
-
     @NotBlank(message = "operator required")
     @Length(max = 63, message = "operator max length 63")
     private String operator;
@@ -30,14 +29,10 @@ public class LogRecord {
     @NotBlank(message = "opAction required")
     @Length(max = 511, message = "operator max length 511")
     private String action;
-
     private String category;
-
-
     @NotBlank(message = "appKey required")
     @Length(max = 64, message = "appKey max length is 64")
     private String appKey;
-
     private Date createTime;
 
     @Override
