@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00e8c8a2-13c1-4638-b6d0-3d531f74dc75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/beans/LogRecordOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/beans/LogRecordOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/domain/LogRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/domain/LogRecord.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../q/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../q/maven/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cKy8RX2BiAXkEB5ohzyfOlqf6N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24482758" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.meituan.mzt.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.meituan.mzt.constants" />
+      <recent name="com.mzt.toolkit.support" />
+      <recent name="com.mzt.toolkit.annotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mzt-toolkit-logrecord/doc" />
+      <recent name="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/resources/MATE-INF" />
+      <recent name="$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit" />
+      <recent name="$PROJECT_DIR$/mzt-toolkit-server/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderServiceImplTest.createOrder">
+    <configuration name="WebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.meituan.mzt.netty.server.WebSocketServer" />
+      <module name="mzt-toolkit-sdk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meituan.mzt.netty.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mzt-toolkit-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meituan.mzt.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meituan.mzt.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.meituan.mzt.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="createOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mzt-toolkit-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meituan.mzt.StartApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderServiceImplTest.createOrder" />
+        <item itemvalue="Application.WebSocketServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00e8c8a2-13c1-4638-b6d0-3d531f74dc75" name="Default Changelist" comment="" />
+      <created>1590291419122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590291419122</updated>
+      <workItem from="1590291426903" duration="14081000" />
+      <workItem from="1590468749838" duration="3181000" />
+      <workItem from="1591683834170" duration="2226000" />
+      <workItem from="1591785921824" duration="16738000" />
+      <workItem from="1602216792948" duration="1134000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1591786021881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591786021882</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" add logrecord">
+      <created>1591792669408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591792669408</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除老的代码">
+      <created>1591929486392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591929486392</updated>
+    </task>
+    <task id="LOCAL-00004" summary="优化，添加测试case，持久化部分注释">
+      <created>1591949333700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591949333700</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提供参考的数据表结构">
+      <created>1591949421062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591949421062</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加md文档">
+      <created>1591950767242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591950767242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加md文档">
+      <created>1591950817464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591950817464</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加md文档">
+      <created>1591950869359</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591950869359</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新文档">
+      <created>1591951104730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591951104730</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加toString方法">
+      <created>1591951334443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591951334443</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加注释">
+      <created>1591951388520</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591951388520</updated>
+    </task>
+    <task id="LOCAL-00012" summary="注释和createTime添加">
+      <created>1591951800105</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591951800105</updated>
+    </task>
+    <task id="LOCAL-00013" summary="逻辑判断修复">
+      <created>1591951913153</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591951913153</updated>
+    </task>
+    <task id="LOCAL-00014" summary="文档修改">
+      <created>1591953514127</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591953514127</updated>
+    </task>
+    <task id="LOCAL-00015" summary="升级hibernate-validator版本&#10;修改GAV信息">
+      <created>1591953874857</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591953874857</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value=" add logrecord" />
+    <MESSAGE value="删除老的代码" />
+    <MESSAGE value="优化，添加测试case，持久化部分注释" />
+    <MESSAGE value="提供参考的数据表结构" />
+    <MESSAGE value="添加md文档" />
+    <MESSAGE value="更新文档" />
+    <MESSAGE value="添加toString方法" />
+    <MESSAGE value="添加注释" />
+    <MESSAGE value="注释和createTime添加" />
+    <MESSAGE value="逻辑判断修复" />
+    <MESSAGE value="文档修改" />
+    <MESSAGE value="升级hibernate-validator版本&#10;修改GAV信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="升级hibernate-validator版本&#10;修改GAV信息" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="198" y="43" key="CommitChangelistDialog2" timestamp="1602218344912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="198" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1602218344912" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1602218347774">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1602218347774" />
+    <state x="374" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1602217920759">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="191" key="VcsDiffUtil.ChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1602217920759" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mzt-toolkit-logrecord/src/main/java/com/mzt/toolkit/support/LogRecordConfigureSelector.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

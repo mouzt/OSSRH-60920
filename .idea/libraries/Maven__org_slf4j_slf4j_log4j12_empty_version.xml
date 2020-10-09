@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.slf4j:slf4j-log4j12:empty_version">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../q/mt_repos/org/slf4j/slf4j-log4j12/empty_version/slf4j-log4j12-empty_version.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../q/mt_repos/org/slf4j/slf4j-log4j12/empty_version/slf4j-log4j12-empty_version-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../q/mt_repos/org/slf4j/slf4j-log4j12/empty_version/slf4j-log4j12-empty_version-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
